@@ -1,0 +1,41 @@
+Instructions:
+
+Unzip the file. 
+To run the file go into the dist folder and double click app.
+
+UI should pop up with a terminal, the terminal will help show you what is happening
+
+Immediately adjust SAVED_FILE_LOCATION to your folder path. This will need to be updated on every opening of the tool.
+
+UI Inputs and Buttons
+
+	UI Inputs
+
+		SAVED_FILE_LOCATION: This is where you unzip the file. Within this folder should be the build, list folder and 
+
+		Sport URL: Leave as Tennis haven't tested with other sports
+
+		Tournament URLS: If you want to search specifically for one tournament
+
+	UI Buttons
+
+		BookMakers Numbering. Produces a csv of the current bookmaker numbering. This gets loaded to understand odds portals key data
+
+		Get Full List of Tourney URLS: Produces a CSV of all the URLS in the sport. This will help for the Tournament URL UI to be input
+
+		Run Tournament URL All Years: This will run the Tournament entered in the URL box for all years available
+
+		Run Full Output (CAN TAKE WEEKS): This will run every tournament from the list
+
+	UI OUTPUTS
+		
+		The Outputs from the UI will be stored in from UI 
+		SAVED_FILE_LOCATION/results
+		Additionally it will not rerun any csv file that is saved in that directory. 
+		So if you want to rerun certain tournaments or certain years remove it from the results folder
+
+
+Please reach out via Upwork if you need assistance. As part of hiring I will perform bug fixes and help as you utilize the tool so please reach out.
+
+Thanks,
+Nick Lowe
